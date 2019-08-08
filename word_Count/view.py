@@ -5,4 +5,4 @@ def greet(request):
     return HttpResponse("Hi,Have a good day")
 
 def hello(request):
-    return render(request,'hello.html')
+    return render(request,'hello.html',{'hello':'hi,guys'})
